@@ -7,6 +7,8 @@ class NewItemForm extends React.Component {
 
   createItem(e){
 
+    console.log("createItem")
+
     // so we don't reload the page
     e.preventDefault();
 
